@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Start">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome\nto your bank's account"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bank" />
+
+    <Button
+        android:id="@+id/bEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textSize="30dp"
+        android:padding="15dp"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginTop="60dp"/>
+
+
+</LinearLayout>
